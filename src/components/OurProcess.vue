@@ -62,7 +62,6 @@ export default {
 .op-subtitle {
     width: 75%;
     margin: 0 auto;
-    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 .op-grid {
@@ -75,6 +74,7 @@ export default {
     @media screen and (min-width: 768px) {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-column-gap: 75px;
+        margin-bottom: 150px;
         width: 1200px;
         max-width: 100%;
         margin-left: auto;
@@ -93,7 +93,6 @@ export default {
 
 .op-grid-desc {
     margin: 0;
-    font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
 }
 
 </style>

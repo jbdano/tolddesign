@@ -3,7 +3,7 @@
         <div class="hh-background-img"></div>
         <div class="hh-content theme-color-white">
             <h1 class="hh-title"><span class="theme-color-green">told</span>.design</h1>
-            <p class="hh-subtitle">website and content development for mission-driven startups</p>
+            <h5 class="hh-subtitle">website and content development for mission-driven startups</h5>
             <div class="hh-button-group">
                 <a class="theme-inline-button theme-inline-button-primary" href="#">WORK WITH US</a>
                 <a class="theme-inline-button theme-inline-button-secondary" href="#">VIEW PORTFOLIO</a>
@@ -55,9 +55,9 @@ export default {
 }
 
 .hh-subtitle {
-    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
     margin-bottom: 50px;
     color: #FCFAF9;
+    font-weight: normal;
 }
 
 .hh-button-group > a {

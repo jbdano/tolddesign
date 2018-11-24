@@ -3,6 +3,7 @@
     <home-hero />
     <div class="home-main-container">
       <OurProcess />
+      <TeamOverview />
     </div>
   </div>
 </template>
@@ -10,12 +11,14 @@
 <script>
 import HomeHero from './components/HomeHero.vue';
 import OurProcess from './components/OurProcess.vue';
+import TeamOverview from './components/TeamOverview.vue';
 
 export default {
   name: 'app',
   components: {
     HomeHero,
     OurProcess,
+    TeamOverview,
   },
 };
 </script>
@@ -87,8 +90,12 @@ h4 {
   margin: 0;
 }
 
+h5 {
+  font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+}
+
 p, a {
-  font-size: calc(16px + (24 - 16) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.5;
   color: #999999;
 }
