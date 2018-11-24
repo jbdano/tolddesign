@@ -1,20 +1,20 @@
 <template>
-    <div class="home-hero">
+    <section class="home-hero">
         <div class="hh-background-img"></div>
-        <section class="hh-content theme-color-white">
+        <div class="hh-content theme-color-white">
             <h1 class="hh-title"><span class="theme-color-green">told</span>.design</h1>
             <p class="hh-subtitle">website and content development for mission-driven startups</p>
             <div class="hh-button-group">
                 <a class="theme-inline-button theme-inline-button-primary" href="#">WORK WITH US</a>
                 <a class="theme-inline-button theme-inline-button-secondary" href="#">VIEW PORTFOLIO</a>
             </div>
-        </section>
-    </div>
+        </div>
+    </section>
 </template>
 
 <script>
 export default {
-  name: "HomeHero",
+  name: 'HomeHero',
 };
 </script>
 
@@ -51,11 +51,13 @@ export default {
 
 .hh-title {
     margin-bottom: 50px;
+    color: #FCFAF9;
 }
 
 .hh-subtitle {
-    font-size: calc(18px + (28 - 18) * ((100vw - 300px) / (1600 - 300)));
+    font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
     margin-bottom: 50px;
+    color: #FCFAF9;
 }
 
 .hh-button-group > a {
