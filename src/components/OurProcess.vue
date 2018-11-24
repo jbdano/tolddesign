@@ -53,6 +53,7 @@ export default {
 
 .our-process {
     text-align: center;
+    padding: 0 25px;
 }
 
 .op-title {

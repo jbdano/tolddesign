@@ -21,7 +21,8 @@ export default {
 
 .team-overview {
     height: calc(400px + (400 - 400) * ((100vw - 300px) / (1600 - 300)));
-    width: 100%;
+    width: 100vw;
+    max-width: 100%;
     position: relative;
 }
 
@@ -30,14 +31,12 @@ export default {
     background: url("../assets/traveling-map.jpeg");
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
     filter: grayscale(100%) brightness(20%);
-    width: calc(100vw - 30px);
-    margin-left: -25px;
     background-position: center;
 }
 
 .to-content {
+    box-sizing: border-box;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -45,6 +44,7 @@ export default {
     text-align: center;
     width: 100%;
     max-width: 800px;
+    padding: 0 25px;
 }
 
 .to-title {

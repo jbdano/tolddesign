@@ -4,6 +4,7 @@
     <div class="home-main-container">
       <OurProcess />
       <TeamOverview />
+      <OurTeam />
     </div>
   </div>
 </template>
@@ -12,6 +13,7 @@
 import HomeHero from './components/HomeHero.vue';
 import OurProcess from './components/OurProcess.vue';
 import TeamOverview from './components/TeamOverview.vue';
+import OurTeam from './components/OurTeam.vue';
 
 export default {
   name: 'app',
@@ -19,6 +21,7 @@ export default {
     HomeHero,
     OurProcess,
     TeamOverview,
+    OurTeam,
   },
 };
 </script>
@@ -73,6 +76,7 @@ h1, h2, h3, h4, h5, p, a {
   text-rendering: optimizeLegibility;
   color: #3C4858;
   line-height: 1.1;
+  margin: 0;
 }
 
 h1 {
@@ -92,18 +96,20 @@ h4 {
 
 h5 {
   font-size: calc(18px + (24 - 18) * ((100vw - 300px) / (1600 - 300)));
+  margin: 0;
 }
 
 p, a {
   font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.5;
   color: #999999;
+  margin-bottom: 15px;
 }
 
 .home-main-container {
   position: relative;
   margin: -50px 15px 0px 15px;
-  padding: 75px 25px;
+  padding: 75px 0px;
   border-radius: 6px 6px 0px 0px;
   background-color: #FCFAF9;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
