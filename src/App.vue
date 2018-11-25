@@ -5,6 +5,7 @@
       <OurProcess />
       <TeamOverview />
       <OurTeam />
+      <TestimonialOverview />
     </div>
   </div>
 </template>
@@ -14,6 +15,7 @@ import HomeHero from './components/HomeHero.vue';
 import OurProcess from './components/OurProcess.vue';
 import TeamOverview from './components/TeamOverview.vue';
 import OurTeam from './components/OurTeam.vue';
+import TestimonialOverview from './components/TestimonialOverview.vue';
 
 export default {
   name: 'app',
@@ -22,6 +24,7 @@ export default {
     OurProcess,
     TeamOverview,
     OurTeam,
+    TestimonialOverview,
   },
 };
 </script>
