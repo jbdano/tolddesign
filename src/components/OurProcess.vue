@@ -53,7 +53,7 @@ export default {
 
 .our-process {
     text-align: center;
-    padding: 0 25px;
+    padding: 75px 25px;
 }
 
 .op-title {
@@ -70,12 +70,10 @@ export default {
     grid-template-columns: 1fr;
     grid-row-gap: 75px;
     margin-top: 75px;
-    margin-bottom: 75px;
 
     @media screen and (min-width: 768px) {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
         grid-column-gap: 75px;
-        margin-bottom: 150px;
         width: 1200px;
         max-width: 100%;
         margin-left: auto;

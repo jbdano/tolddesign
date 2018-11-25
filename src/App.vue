@@ -6,6 +6,7 @@
       <TeamOverview />
       <OurTeam />
       <TestimonialOverview />
+      <Testimonials />
     </div>
   </div>
 </template>
@@ -16,6 +17,7 @@ import OurProcess from './components/OurProcess.vue';
 import TeamOverview from './components/TeamOverview.vue';
 import OurTeam from './components/OurTeam.vue';
 import TestimonialOverview from './components/TestimonialOverview.vue';
+import Testimonials from './components/Testimonials.vue';
 
 export default {
   name: 'app',
@@ -25,6 +27,7 @@ export default {
     TeamOverview,
     OurTeam,
     TestimonialOverview,
+    Testimonials,
   },
 };
 </script>
@@ -102,7 +105,7 @@ h5 {
   margin: 0;
 }
 
-p, a {
+p, a, q {
   font-size: calc(16px + (18 - 16) * ((100vw - 300px) / (1600 - 300)));
   line-height: 1.5;
   color: #999999;
@@ -112,7 +115,6 @@ p, a {
 .home-main-container {
   position: relative;
   margin: -50px 15px 0px 15px;
-  padding: 75px 0px;
   border-radius: 6px 6px 0px 0px;
   background-color: #FCFAF9;
   box-shadow: 0 16px 24px 2px rgba(0, 0, 0, 0.14), 0 6px 30px 5px rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 0, 0, 0.2);
