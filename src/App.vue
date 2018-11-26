@@ -7,6 +7,7 @@
       <OurTeam />
       <TestimonialOverview />
       <Testimonials />
+      <Contact />
     </div>
   </div>
 </template>
@@ -18,6 +19,7 @@ import TeamOverview from './components/TeamOverview.vue';
 import OurTeam from './components/OurTeam.vue';
 import TestimonialOverview from './components/TestimonialOverview.vue';
 import Testimonials from './components/Testimonials.vue';
+import Contact from './components/Contact.vue';
 
 export default {
   name: 'app',
@@ -28,6 +30,7 @@ export default {
     OurTeam,
     TestimonialOverview,
     Testimonials,
+    Contact,
   },
 };
 </script>
